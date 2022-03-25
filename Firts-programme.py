@@ -19,3 +19,8 @@ plt.show()
 # Coloriser l'image 
 
 gris = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+
+# Flouter l'image 
+
+blur = cv.GaussianBlur(gris,(11,11),0)
+
