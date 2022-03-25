@@ -15,3 +15,7 @@ from  matplotlib import pyplot as plt
 plt.figure(figsize=(5,5))
 plt.imshow(img)
 plt.show()
+
+# Coloriser l'image 
+
+gris = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
